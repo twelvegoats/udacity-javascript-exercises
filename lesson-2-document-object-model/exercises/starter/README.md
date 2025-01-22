@@ -1,33 +1,37 @@
 **Traversing the DOM**
 
-Now it's your turn to create your own event listener using event delegation.
+Now it's time to dig into some HTML and select some DOM elements.
 
-This shouldn't be too hard. You only need one listener and one handler. But you do need to slow down and think about the best way to make it work.
+You'll do this all the time in your code as a front end developer so it's good to know how to use the selectors and methods.
 
-You're going to be given some HTML of product cards for an online marketplace. Your goal, for now is to create an event listener that will open an alert that says "You selected the insert item here. Good choice!"
+In this exercise you're going to dive into the DOM of an existing website and select specific elements. The webpage will look like this...
 
-In case it's not clear, you'll need to insert the title of the item where I said "insert item here."
+![DOM traversal screenshot](./images/DOM_selection_screenshot.jpg)
 
-It should work like this example...
+It's nothing special, but it will do the job when it comes to letting you test out your DOM navigation skills.
 
-<iframe width="800" height="800" src="https://www.youtube.com/embed/sSqQczBOi3I" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+At the bottom of the page will be a series of questions asking you to target specific elements on the page. You'll type your query in the input and once you submit you can see whether your target matches the expected target.
 
-For this exercise you can only have..
-- 1 event listener
-- 1 event handler
-  - remember to think about other devices and use an event that works with multiple devices well
-  - use best practices when naming your handler
+There may be multiple ways you can get to each element so the most important thing is that the elements match. The queries can be very different but as long as the end result is the same, that's all that matters.
 
-Making this work with only 1 listener is going to force you to think about how the event processor works. Remember that just because you click on what looks like the card doesn't mean that's where the event is actually fired. If the event is recorded on a child of the product card, how do you make that work?
+Having said that, there are some rules...
 
-You'll have to move up and down the DOM using the methods we've already learned about in order to get the alert to display properly. (HINT: Check lesson 2 on traversing the DOM)
+**RULES:**
+- Each query can only be one line.
+  - You can chain methods as you need to. In fact one question even asks you to chain a method.
+- Each query MUST start with the document root.
+- Each query MUST use .querySelector() or .querySelectorAll()
+- No illegal characters
+  -inputs will be sanitized before checking
 
-**Requirements:**
+**Getting started:**
 
-For this exercise you have to have only one event listener.
+Go to this GitHub repository.
 
-You can only have one named (not anonymous) event handler.
+Once there, you'll need to clone these files into your local machine.
 
-Do not modify the provided HTML or CSS in any way.
+Once you have the repo cloned locally, you can right click on the index.html and open it in your browser.
 
-The only file you should modify is the scripts.js file.
+You'll definitely need to open your developer tools to see the HTML structure and complete the assignment.
+
+Then simply enter your query for each question and see if yours matches.
