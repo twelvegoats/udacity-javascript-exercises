@@ -59,8 +59,3 @@ function getButtonClass(isActive) {
 
     return buttonClass;
 }
-
-
-
-
-

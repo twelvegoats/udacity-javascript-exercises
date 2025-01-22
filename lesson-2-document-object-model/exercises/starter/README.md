@@ -1,4 +1,4 @@
-**Event Delegation Exercise**
+**Traversing the DOM**
 
 Now it's your turn to create your own event listener using event delegation.
 
