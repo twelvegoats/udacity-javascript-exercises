@@ -11,7 +11,7 @@ const destructureExercise = async() => {
     const {firstName, lastName, city, state, favorites, profilePic} = user
     const [fave1, fave2] = favorites
     const name = `${firstName} ${lastName}`
-    const bio = `Hi! My name is ${firstName} ${lastName} and I'm from ${city}, ${state}. Some of my favorite things are ${fave1} and ${fave2}.`
+    const bio = `Hi! My name is ${name} and I'm from ${city}, ${state}. Some of my favorite things are ${fave1} and ${fave2}.`
 
     // DO NOT EDIT BELOW THIS LINE!
 
