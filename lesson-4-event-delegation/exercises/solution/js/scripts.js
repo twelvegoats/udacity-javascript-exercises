@@ -6,7 +6,6 @@ const handleClick = async(event) => {
 
 const cardListener = async() => {
     const cardContainer = document.querySelector('.product-grid')
-    console.log(cardContainer)
     cardContainer.addEventListener('pointerdown', handleClick)
 }
 
