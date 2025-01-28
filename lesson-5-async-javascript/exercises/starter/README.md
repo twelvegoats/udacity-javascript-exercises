@@ -2,7 +2,7 @@
 ---
 Let's make some code work better with async/await and try/catch blocks.
 
-Our friend Whiskers has a new function on his site. No, when you click the button on his page, he'll get a message saying how many notifications he has.
+Our friend Whiskers has a new function on his site. Now, when you click the button on his page, he'll get a message saying how many notifications he has.
 
 The only problem is that it's not working. Here's what's going on ...
 
