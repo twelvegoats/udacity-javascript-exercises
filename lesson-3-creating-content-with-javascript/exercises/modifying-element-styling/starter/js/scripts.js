@@ -13,6 +13,14 @@ const restyleOtter = async () => {
 
   const picFrame = profileCard.firstElementChild;
   picFrame.classList.add('picFrame');
+
+  const userInfo = picFrame.nextElementSibling;
+  userInfo.classList.add('userInfo');
+
+  const buttonContainer = userInfo.lastElementChild;
+  const button = buttonContainer.firstElementChild;
+  button.classList.toggle('active');
+  button.textContent = 'Online Now!';
 };
 
 restyleOtter();
